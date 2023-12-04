@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joki.ID Store</title>
+    <!-- Tambahkan link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Tambahkan link Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('g.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: rgb(134, 91, 6);
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 50px; /* Sesuaikan lebar logo sesuai kebutuhan */
+            height: 50px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .admin-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            background-color: #fff;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .admin-card:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .admin-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            text-decoration: none;
+        }
+
+        .admin-link i {
+            font-size: 2em;
+            margin-right: 10px;
+        }
+
+        .admin-link span {
+            font-size: 1.2em;
+            font-weight: bold;
+            flex-grow: 1;
+        }
+
+        .whatsapp-btn {
+            background-color: #25D366; /* Warna hijau WhatsApp */
+            color: #fff;
+            padding: 8px 12px;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none; /* Hapus dekorasi default pada tautan */
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #128C7E; /* Warna hijau tua WhatsApp saat dihover */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo">
+        </div>
+        <h1>Joki.id</h1>
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="admin-card">
+                    <div class="admin-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Hubungi Admin 1</span>
+                        <a href="https://wa.me/6285753664773" target="_blank" class="whatsapp-btn">Chat Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="admin-card">
+                    <div class="admin-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Hubungi Admin 2</span>
+                        <a href="https://wa.me/628539794864" target="_blank" class="whatsapp-btn">Chat Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tambahkan link Bootstrap JS dan Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
